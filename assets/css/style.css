@@ -67,8 +67,12 @@ body {
   left: 0;
   top: 0;
   border-radius: 16px;
+  z-index: 0;
 }
-
+.banner-content{
+  position: relative;
+  z-index: 1;
+}
 .main-heading-banner {
   font-family: var(--font-instrument-serif);
   font-weight: 400;
